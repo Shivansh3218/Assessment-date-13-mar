@@ -1,12 +1,33 @@
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: c;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 40min;
   pointer-events: none;
 }
+.small{
+  width: 10vw;
+  height: 20vh;
+}
 
+.meal-container{
+  /* width: 40rem; */
+  display: flex;
+  align-items: center ;
+  justify-content: space-around;
+}
+p,h3{
+  margin-left: 4rem
+}
+h3{
+
+}
+.details{
+  width: 40%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
